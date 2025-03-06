@@ -50,10 +50,10 @@ aside a {
 
 main {
 	align-content: center;
-	width:85%;
-	height: 94vh;
-	overflow-y: auto;
+	width: auto;
+	height: auto;
 }
+
 p {
 	text-align: center;
 	align-content: center;
@@ -69,4 +69,10 @@ footer p {
 	height: 5vh;
 	padding: 0;
 	width: auto;
+}
+
+#content {
+	width:85%;
+	height: 94vh;
+	overflow-y: auto;
 }
